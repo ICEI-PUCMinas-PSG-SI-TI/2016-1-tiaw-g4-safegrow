@@ -1,17 +1,24 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-Trabalho Interdisciplinar - Aplicacões Web
+Safegrow
 
 `CURSO`
 
+Sistemas de Informação e ADS
+
 `SEMESTRE`
+
+Primeiro período
 
 ## Participantes
 
 Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
+- Tiago Sousa de Borba
+- Nicole Samara de Almeida
+- Rodrigo Cesar Santos Mantovani
+- Pedro Henrique da Costa Cunha
+- Daniel Mafia Mendes
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 

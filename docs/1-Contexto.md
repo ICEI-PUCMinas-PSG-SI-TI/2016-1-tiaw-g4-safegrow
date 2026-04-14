@@ -17,6 +17,11 @@
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
+A adultização infantil é um fenômeno social em que crianças e adolescentes são submetidos a responsabilidades, comportamentos e expectativas típicas do mundo adulto antes que estejam emocionalmente, cognitivamente e fisicamente preparados para isso. Esse processo pode ocorrer de forma velada no ambiente familiar, escolar e até mesmo por meio da mídia e das redes sociais.
+Os impactos desse fenômeno incluem prejuízos ao desenvolvimento emocional, ansiedade, perda da espontaneidade, dificuldades de socialização e comprometimento da saúde mental a longo prazo. Apesar de sua gravidade, o tema ainda é pouco discutido publicamente e carece de ferramentas acessíveis para conscientização, denúncia e apoio.
+O projeto SafeGrow surge nesse contexto como uma plataforma web voltada à conscientização, denúncia e suporte relacionados à adultização infantil no Brasil.
+
+
 ## Objetivos
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
@@ -27,6 +32,9 @@
 > 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
+O objetivo geral deste projeto é desenvolver uma aplicação web que auxilie na prevenção e no combate à adultização infantil, fornecendo informações, canais de denúncia e recursos de apoio a famílias, educadores e profissionais da área da saúde e da assistência social.
+
 
 ## Justificativa
 
@@ -41,6 +49,9 @@
 >
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
+Segundo o ECA (Estatuto da Criança e do Adolescente), toda criança tem direito à proteção integral e ao pleno desenvolvimento. No entanto, dados do IBGE e de organizações como o Unicef Brasil apontam que milhões de crianças brasileiras vivem em contextos de vulnerabilidade social que aceleram forçosamente sua entrada no mundo adulto — seja pelo trabalho infantil, pela sobrecarga emocional ou pela exposição a conteúdos inapropriados.
+
 
 ## Público-Alvo
 
@@ -59,3 +70,4 @@
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
+ Existem quatro perfis principais de usuários. O primeiro são pais e responsáveis, adultos que desejam identificar comportamentos de adultização e buscar orientação, com acesso moderado à tecnologia e uso predominante via smartphone. O segundo são educadores, como professores e coordenadores escolares que lidam diretamente com crianças e precisam reconhecer sinais de adultização, sendo familiarizados com ferramentas digitais básicas. O terceiro perfil é composto por profissionais de saúde e assistência social, como psicólogos, assistentes sociais e pediatras, que necessitam de referências e canais de encaminhamento e possuem alto letramento digital. Por fim, o quarto perfil são os adolescentes, jovens que podem se identificar com a situação e buscar informação ou apoio, sendo nativos digitais com alto uso de redes sociais.

@@ -17,7 +17,19 @@
 
 ## Slides
 
-Coloque aqui os slides da apresentação
+![alt text](../images/image.png)
+![alt text](../images/image-1.png)
+![alt text](../images/image-2.png)
+![alt text](../images/image-3.png)
+![alt text](../images/image-4.png)
+![alt text](<../images/Captura de tela 2026-04-13 204451.png>)
+![alt text](<../images/Captura de tela 2026-04-13 204544.png>)
+![alt text](<../images/Captura de tela 2026-04-13 204642.png>)
+![alt text](<../images/Captura de tela 2026-04-13 204716.png>)
+![alt text](<../images/Captura de tela 2026-04-13 204744.png>)
+
+
+
 
 ## Vídeo
 
