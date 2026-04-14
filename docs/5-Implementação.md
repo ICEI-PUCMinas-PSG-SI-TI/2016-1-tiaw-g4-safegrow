@@ -47,3 +47,29 @@ notificado para o usuário (Tela 8) e em seguida ele é redirecionado
 para a Tela 2.
 
 ![alt text](<images/smartphone ti.jpeg>)
+Etapas do fluxo:
+Usuário acessa a página inicial
+Visualiza a mensagem principal (SAFEGROW)
+Pode:
+- Ler informações sobre direitos humanos
+- Ver orientações sobre proteção infantil
+- Acessar contatos de ajuda (Disque 100 / 190)
+Navega pelo menu (Soluções, Comunidade, Recursos, Contato)
+Pode interagir com links externos ou redes sociais
+Recebe a informação desejada
+
+[Usuário]
+    ↓
+[Acessa o site]
+    ↓
+[Home - SAFEGROW]
+    ↓
+ ┌───────────────┬────────────────┬────────────────┐
+ ↓               ↓                ↓
+[Direitos]   [Infância]      [Contato]
+    ↓               ↓                ↓
+[Informação]  [Conscientização]  [Ação (ligar)]
+    ↓
+[Usuário informado]
+
+

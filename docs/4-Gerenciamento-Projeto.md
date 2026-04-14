@@ -54,11 +54,11 @@ Legenda:
 
 As ferramentas empregadas no projeto são:
 
-- Ferramentas empregadas: 
-- Visual Studio Code;
-- GitHub classroom;
-- Canva;
-- Miro;
+- Ferramentas empregadas:                 - Links das ferramentas utilizadas:
+- Visual Studio Code;                     - https://www.figma.com/
+- GitHub classroom;                       - https://www.leanplum.com/blog/user-flow/
+- Canva;                                  - https://marvelapp.com/prototype/4hd6091
+- Miro;                            - https://www.pucminas.br/biblioteca/Paginas/default.aspx
 - Word;
 
 
