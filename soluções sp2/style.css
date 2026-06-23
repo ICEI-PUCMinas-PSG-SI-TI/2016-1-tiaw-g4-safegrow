@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    border-bottom: 1px solid #430da8;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(17, 50, 103);
+
+    margin: 0 10px;
+}
+
+.buttons button{
+    padding: 8px 15px;
+
+    border: 1px solid rgb(40, 38, 154);
+
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+    
+    margin-top: 40px;
+}
+
+.container{
+        display: flex;
+
+        justify-content: center;
+
+        gap: 40px;
+
+        margin-top: 40px;
+}
+
+
+.formulario{
+    width: 400px;
+
+    border: 1px solid #040115;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    margin-top: 15px;
+
+    padding: 10px;
+
+    border: 1px solid #000105;
+
+    border-radius: 5px;
+}
+
+textarea{
+    height: 120px;
+
+    resize: none;
+}
+
+form button{
+    margin-top: 20px;
+
+    padding: 12px;
+
+    background-color: black;
+    color: rgb(233, 233, 233);
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.contatos{
+    width: 400px;
+
+    border: 1px solid #040115;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    background: white;
+}
+
+.card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contato{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;  
+    width: 400px;
+    background: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.card{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.botaoEmail{
+    background: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+
+    margin-top: 10px;
+}
+
+.erro{
+    color: red;
+    margin-top: 10px;
+}

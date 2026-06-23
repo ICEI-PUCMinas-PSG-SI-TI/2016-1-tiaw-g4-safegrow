@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #060415;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+h1,
+h2 {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+ul {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.cabecalho,
+.linha {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.acao {
+    font-weight: bold;
+    min-width: 250px;
+}
+
+.cabecalho {
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+}
+
+.linha {
+    border-bottom: 1px solid #333;
+}
+
+.acao {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .cabecalho,
+    .linha {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+}
+
+.tabela {
+    width: 100%;
+}
+
+.tabela {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.cabecalho,
+.linha {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 40px;
+    padding: 25px 0;
+    align-items: start;
+}
+
+.cabecalho {
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+}
+
+.linha {
+    border-bottom: 1px solid #333;
+}
+
+.acao {
+    font-weight: bold;
+}
+
+.linha div,
+.cabecalho div {
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
