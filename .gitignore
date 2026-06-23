@@ -1,3 +1,5 @@
 # IDEs
 *.swp
 *.swo
+# Chave da API
+config.js
