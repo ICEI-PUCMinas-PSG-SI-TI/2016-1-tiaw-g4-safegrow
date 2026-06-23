@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Pedro Henrique",
+      "email": "pedro_henrique19@gmail.com.br",
+      "telefone": "(31) 99751-0797",
+      "idade": 18,
+      "cidade": "Belo Horizonte"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Campolina",
+      "email": "mariass_campoo22@gmail.com.br",
+      "telefone": "(11) 3462-5594",
+      "idade": 35,
+      "cidade": "São Paulo"
+    },
+    {
+      "id": 3,
+      "nome": "João Souza",
+      "email": "joaosouzzz02@gmail.com.br",
+      "telefone": "(31) 7661-1270",
+      "idade": 30,
+      "cidade": "Ouro Preto"
+    }
+  ]
+}
