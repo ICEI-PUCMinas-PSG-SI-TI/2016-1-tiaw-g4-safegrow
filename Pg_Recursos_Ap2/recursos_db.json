@@ -1,0 +1,63 @@
+
+{ 
+    "recursos":[{
+            "titulo": "Recursos de Apoio e Orientação",
+
+            "descricao": "Informações para ajudar pais, responsáveis, educadores e a comunidade a identificar, prevenir e denunciar situações de adultização infantil. Nesta página, você encontra materiais educativos, canais de denúncia, orientações sobre segurança digital, apoio psicológico e conteúdos sobre os direitos de crianças e adolescentes.",
+
+            "objetivo": "O objetivo desta seção é reunir recursos confiáveis em um só lugar, facilitando o acesso a informações que possam auxiliar na proteção da infância, no combate à exposição inadequada e na conscientização sobre os riscos da adultização infantil.",
+            "imagem":"img/recursos.png"
+
+    }
+],
+  "cards": [
+    {
+      "id": 1,
+      "titulo": "Como denunciar conteúdos inadequados",
+      "categoria": "Denúncia",
+      "descricao": "Encontre orientações sobre como agir ao identificar conteúdos, perfis ou situações que exponham crianças de forma inadequada. Saiba quais informações reunir e quais canais procurar para realizar uma denúncia com segurança.",
+      "link":"https://new.safernet.org.br/denuncie",
+      "imagem":"img/denuncia.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Orientação para pais e responsáveis",
+      "categoria": "Família",
+      "descricao": "Conteúdo voltado para famílias que desejam proteger crianças no ambiente digital. Aqui você encontra dicas sobre diálogo, limites, privacidade, exposição de imagens e acompanhamento do uso das redes sociais.",
+      "link":"https://new.safernet.org.br/content/acesso-%C3%A0-internet-por-crian%C3%A7as-e-adolescentes-dicas-de-como-orientar",
+      "imagem":"img/pais.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Segurança digital infantil",
+      "categoria": "Internet",
+      "descricao": "Aprenda cuidados importantes para reduzir riscos na internet, como configurar privacidade em redes sociais, evitar exposição excessiva, reconhecer interações perigosas e proteger dados pessoais de crianças e adolescentes.",
+      "link":"https://new.safernet.org.br/content/navegar-com-seguran%C3%A7a-%E2%80%93-childhood",
+      "imagem":"img/seguranca.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Materiais para escolas",
+      "categoria": "Educação",
+      "descricao": "Materiais e orientações para professores, coordenadores e instituições de ensino trabalharem a conscientização sobre adultização infantil, segurança online, respeito à infância e prevenção de situações de exposição inadequada.",
+      "link":"https://www.gov.br/mdh/pt-br/assuntos/noticias/2023/maio/cartilha-do-governo-federal-traz-orientacoes-para-lidar-e-conversar-com-criancas-e-jovens-sobre-conteudos-de-violencia-online",
+      "imagem":"img/escola.png"
+    },
+    {
+        "id":5,
+        "titulo": "Apoio psicológico ",
+        "categoria":"Saúde",
+        "descricao":"Informações sobre a importância do acolhimento emocional quando uma criança passa por exposição, constrangimento ou situação de risco. O objetivo é orientar responsáveis sobre como buscar ajuda profissional e oferecer suporte adequado.",
+        "link":"https://www.childhood.org.br/centro-de-atendimento-integrado-e-escuta-especializada/",
+        "imagem":"img/apoio.png"
+    },
+    {
+        "id":6,
+        "titulo":"Legislação",
+        "categoria":"leis",
+        "descricao":"Conheça os principais direitos que protegem crianças e adolescentes, incluindo o direito à imagem, à privacidade, à dignidade e à proteção contra qualquer forma de exploração ou exposição inadequada. Este recurso apresenta informações sobre leis e normas que ajudam famílias, escolas e a sociedade a compreenderem a importância da proteção integral da infância.",
+        "link":"https://www.gov.br/mdh/pt-br/navegue-por-temas/crianca-e-adolescente/publicacoes/o-estatuto-da-crianca-e-do-adolescente",
+        "imagem":"img/leis.png"
+    }
+  ]
+}

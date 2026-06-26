@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background-color: rgba(206, 121, 82, 0.788);
+}
+/* Cabeçalho */
+.textos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 3vh;
+}
+.nome{
+    font-size: x-large;
+}
+
+.textos .voltar a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+.voltar{
+    margin-top: 20px;
+}
+
+#linha {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+/* Card principal horizontal */
+#caixa {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #1f1f3a;
+    border-radius: 20px;
+    color: white;
+}
+
+.imgE {
+    width: 45%;
+    max-width: 520px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.titulo {
+    color: white;
+    margin-bottom: 18px;
+}
+
+.descricaoE {
+    color: white;
+    font-size: large;
+    line-height: 1.5;
+}
+#cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    padding: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white !important;
+    background-color: rgb(15, 15, 65) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 14px;
+    padding: 24px;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+.card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+.card .titulo {
+    font-size: 22px;
+    margin: 15px 0 8px 0;
+    color: white;
+    word-break: normal;
+}
+
+.categoria {
+    font-weight: bold;
+    color: lightseagreen;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #d1d1e9; 
+    margin-bottom: 20px;
+}
+
+.card button {
+    margin-top: auto; 
+    height: 45px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid lightseagreen;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card button:hover {
+    background-color: lightseagreen;
+    color: #0f0f41;
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    #caixa {
+        flex-direction: column;
+        text-align: center;
+        margin: 30px 20px;
+    }
+
+    .imgE {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+    }
+
+    #cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 900px;
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .card img {
+        height: 240px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .textos {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    #caixa {
+        margin: 20px 15px;
+        padding: 18px;
+    }
+
+    .imgE {
+        width: 100%;
+        height: auto;
+    }
+
+    #cards-container {
+        grid-template-columns: 1fr;
+        padding: 18px;
+        gap: 25px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+    .card .titulo {
+        font-size: 22px;
+    }
+
+    .descricao {
+        font-size: 16px;
+    }
+}
