@@ -1,35 +1,34 @@
 window.onload = function () {
 
-
-  fetch('/menu')
-
+  fetch('http://localhost:3000/menu')
     .then(respostas => respostas.json())
     .then(menu => {
       for (let i = 0; i < menu.length; i++) {
-        let item = menu[i]
-        console.log(item)
-        console.log(item.nome)
-        console.log(item.link)
+        let item = menu[i];
+
+        console.log(item);
+        console.log(item.nome);
+        console.log(item.link);
+
         const caixaMenu = document.getElementById('menu-dinamico');
         caixaMenu.innerHTML += `<li><a class="dropdown-item" href="${item.link}">${item.nome}</a></li>`;
       }
     });
 
-
-  const inputBusca = document.getElementById('input-busca')
-  const busca = document.getElementById('resultados-busca')
+  const inputBusca = document.getElementById('input-busca');
+  const busca = document.getElementById('resultados-busca');
 
   inputBusca.addEventListener('input', (evento) => {
     const termo = evento.target.value.toLowerCase();
-    console.log(evento.target.value)
+    console.log(evento.target.value);
 
-    fetch('/pesquisas')
+    fetch('http://localhost:3000/pesquisas')
       .then(respostas => respostas.json())
       .then(pesquisas => {
-        busca.innerHTML = ""
+        busca.innerHTML = "";
 
         for (let i = 0; i < pesquisas.length; i++) {
-          let itemDaBusca = pesquisas[i]
+          let itemDaBusca = pesquisas[i];
 
           if (
             (
@@ -39,19 +38,17 @@ window.onload = function () {
             && termo !== ""
           ) {
             busca.innerHTML += `<li><a class="dropdown-item" href="${itemDaBusca.link}">${itemDaBusca.termo} / ${itemDaBusca.categoria}</a></li>`;
-            console.log(itemDaBusca)
+            console.log(itemDaBusca);
           }
-
         }
-      })
+      });
   });
-  const formularioBusca = document.getElementById('form-busca')
+
+  const formularioBusca = document.getElementById('form-busca');
+
   formularioBusca.addEventListener('submit', function (evento) {
     evento.preventDefault();
-
     console.log("Busca enviada com sucesso!");
-  })
-
+  });
 
 }
-//fechamento da funçao windon.onload
