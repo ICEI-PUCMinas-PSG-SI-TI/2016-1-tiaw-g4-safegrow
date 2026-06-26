@@ -1,0 +1,14 @@
+{
+  "menu": [
+    { "id": "1", "nome": "Contatos", "link": "#" },
+    { "id": "2", "nome": "Recursos", "link": "#" },
+    { "id": "3", "nome": "Soluções", "link": "#" },
+    { "id": "4", "nome": "Ajuda", "link": "#" }
+  ],
+  "pesquisas": [
+    { "id": "1", "termo": "O que é adultização?", "categoria": "Conceito", "link": "#"  },
+    { "id": "2", "termo": "Riscos das redes sociais", "categoria": "Prevenção", "link": "#" },
+    { "id": "3", "termo": "Como identificar", "categoria": "Sintomas", "link": "#" },
+    { "id": "4", "termo": "Onde buscar ajuda", "categoria": "Recursos", "link": "#" }
+  ]
+}
