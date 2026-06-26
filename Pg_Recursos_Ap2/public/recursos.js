@@ -1,12 +1,12 @@
 window.onload = function () {
 
-    fetch('/recursos')
+    fetch('http://localhost:3000/recursos')
         .then(resposta => resposta.json())
         .then(recursos => {
             carregarTopo(recursos);
         });
 
-    fetch('/cards')
+    fetch('http://localhost:3000/cards')
         .then(resposta => resposta.json())
         .then(cards => {
             carregarCards(cards);
