@@ -3,7 +3,10 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: sans-serif;
-    background-color: rgba(206, 121, 82, 0.788);
+    /**/
+    background: linear-gradient( to bottom right, #6589b8, rgb(21, 21, 114),#0d2553);
+    color: white !important;
+
 }
 /* Cabeçalho */
 .textos {
@@ -26,7 +29,7 @@ body {
 }
 
 #linha {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 2px;
     width: 100%;
 }
