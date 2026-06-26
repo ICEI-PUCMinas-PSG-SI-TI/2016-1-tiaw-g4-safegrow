@@ -1,17 +1,20 @@
 window.onload = function () {
-
-    fetch('http://localhost:3000/recursos')
+    fetch('http://localhost:3000/cardprincipal')
         .then(resposta => resposta.json())
         .then(recursos => {
+            console.log("Recursos recebidos:", recursos);
+            console.log("Quantidade de recursos:", recursos.length);
             carregarTopo(recursos);
-        });
+        })
+        .catch(erro => console.error("Erro em recursos:", erro));
 
     fetch('http://localhost:3000/cards')
         .then(resposta => resposta.json())
         .then(cards => {
+            console.log("Cards recebidos:", cards);
             carregarCards(cards);
-        });
-
+        })
+        .catch(erro => console.error("Erro em cards:", erro));
 }
 
 function carregarTopo(recursos) {

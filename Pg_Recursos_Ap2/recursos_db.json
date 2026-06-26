@@ -1,11 +1,10 @@
 
 { 
-    "recursos":[{
+    "cardprincipal":[{
             "titulo": "Recursos de Apoio e Orientação",
 
-            "descricao": "Informações para ajudar pais, responsáveis, educadores e a comunidade a identificar, prevenir e denunciar situações de adultização infantil. Nesta página, você encontra materiais educativos, canais de denúncia, orientações sobre segurança digital, apoio psicológico e conteúdos sobre os direitos de crianças e adolescentes.",
-
-            "objetivo": "O objetivo desta seção é reunir recursos confiáveis em um só lugar, facilitando o acesso a informações que possam auxiliar na proteção da infância, no combate à exposição inadequada e na conscientização sobre os riscos da adultização infantil.",
+           "descricao": "Encontre informações confiáveis para apoiar famílias, educadores e a comunidade na proteção de crianças e adolescentes. Esta seção reúne materiais educativos, orientações sobre segurança digital, canais de denúncia, apoio psicológico e conteúdos sobre direitos infantis.",
+           "objetivo": "Nosso objetivo é facilitar o acesso a recursos que ajudem a identificar riscos, prevenir situações de exposição inadequada e incentivar atitudes responsáveis no combate à adultização infantil.",
             "imagem":"img/recursos.png"
 
     }
