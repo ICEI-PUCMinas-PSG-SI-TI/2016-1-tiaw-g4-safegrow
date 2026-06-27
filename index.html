@@ -33,16 +33,16 @@
       const erro = document.getElementById("erro");
 
       try {
-        const res = await fetch(${API_URL}/noticias);
+        const res = await fetch(`${API_URL}noticias`);
         const noticias = await res.json();
 
-        grid.innerHTML = noticias.map(n => 
-          <div class="card">
+        grid.innerHTML = noticias.map(n =>
+          `<div class="card">
             <p class="categoria">${n.categoria}</p>
             <h3>${n.titulo}</h3>
             <p>${n.resumo}</p>
             <p class="rodape">Por ${n.autor} — ${n.data}</p>
-          </div>
+          </div>`
         ).join("");
 
       } catch (e) {
@@ -55,4 +55,3 @@
 </body>
 
 </html>
-db.json:
