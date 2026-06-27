@@ -1,0 +1,58 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="pagina-inicial">
+    <h1>Portal de Notícias</h1>
+    <p>Clique no botão abaixo para ver as notícias.</p>
+    <button id="btn-acessar" onclick="abrirPortal()">Acessar Notícias</button>
+  </div>
+
+  <div id="portal">
+    <h2>Últimas Notícias</h2>
+    <div id="news-grid">Carregando...</div>
+    <p id="erro"></p>
+  </div>
+
+  <script>
+    const API_URL = "http://localhost:3000/";
+
+    function abrirPortal() {
+      document.getElementById("pagina-inicial").style.display = "none";
+      document.getElementById("portal").style.display = "block";
+      carregarNoticias();
+    }
+
+    async function carregarNoticias() {
+      const grid = document.getElementById("news-grid");
+      const erro = document.getElementById("erro");
+
+      try {
+        const res = await fetch(${API_URL}/noticias);
+        const noticias = await res.json();
+
+        grid.innerHTML = noticias.map(n => 
+          <div class="card">
+            <p class="categoria">${n.categoria}</p>
+            <h3>${n.titulo}</h3>
+            <p>${n.resumo}</p>
+            <p class="rodape">Por ${n.autor} — ${n.data}</p>
+          </div>
+        ).join("");
+
+      } catch (e) {
+        grid.innerHTML = "";
+        erro.textContent = "Erro: verifique se o JSON Server está rodando na porta 3000.";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
+db.json:
