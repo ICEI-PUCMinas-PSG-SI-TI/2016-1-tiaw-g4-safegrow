@@ -1,49 +1,161 @@
-# Projeto da Solução
+# Solução Implementada
 
-<span style="color:red">Pré-requisitos: <a href="4-Gestão-Configuração.md"> Ambiente e Ferramentas de Trabalho</a></span>
+## Funcionalidades
 
-## Tecnologias Utilizadas
+### 1. Home Page
+**Descrição:** Página inicial da plataforma SafeGrow, apresentando o projeto, sua missão e direcionando o usuário para as demais seções da aplicação.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+**Acesso:** Disponível para todos os usuários ao acessar o endereço principal da aplicação (`index.html`).
 
-## Arquitetura da solução
+---
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+### 2. Chat com Inteligência Artificial
+**Descrição:** O usuário descreve uma situação do cotidiano e a IA analisa o relato, identificando possíveis sinais de adultização infantil e oferecendo orientações personalizadas. Utiliza a API do Google Gemini.
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+**Estrutura de dados associada:**
+```json
+{
+  "mensagem": "Minha filha de 8 anos fica responsável por cuidar do irmão mais novo enquanto trabalho.",
+  "resposta_ia": "A situação descrita apresenta características de adultização infantil...",
+  "timestamp": "2026-06-28T10:30:00"
+}
+```
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+**Acesso:** Disponível na página `avaliacao.html`.
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+---
 
-![alt text](<images/smartphone ti.jpeg>)
+### 3. Cards de Notícias com Filtro de Pesquisa
+**Descrição:** Exibe notícias e artigos relacionados à adultização infantil em formato de cards. Permite filtrar por categoria ou palavra-chave. Administradores podem adicionar novas notícias.
+
+**Estrutura de dados associada:**
+```json
+{
+  "id": 1,
+  "titulo": "Como identificar sinais de adultização infantil",
+  "descricao": "Especialistas apontam comportamentos que indicam...",
+  "categoria": "Educação",
+  "imagem": "url_da_imagem",
+  "data": "2026-06-01"
+}
+```
+
+**Acesso:** Disponível na página `filtro.html`.
+
+---
+
+### 4. Formulário de Cadastro de Usuário
+**Descrição:** Permite que novos usuários se registrem na plataforma informando nome, e-mail e senha. Os dados são armazenados via localStorage.
+
+**Estrutura de dados associada:**
+```json
+{
+  "nome": "Marcos Oliveira",
+  "email": "marcos@email.com",
+  "senha": "***",
+  "dataCadastro": "2026-06-28"
+}
+```
+
+**Acesso:** Disponível na página de cadastro.
+
+---
+
+### 5. Tela de Login e Autenticação
+**Descrição:** Permite que usuários cadastrados acessem a plataforma com e-mail e senha. A autenticação é validada contra os dados armazenados no localStorage.
+
+**Estrutura de dados associada:**
+```json
+{
+  "email": "marcos@email.com",
+  "senha": "***",
+  "logado": true
+}
+```
+
+**Acesso:** Disponível na página de login.
+
+---
+
+### 6. Página de Soluções e Recursos
+**Descrição:** Reúne recursos educativos, links úteis e orientações práticas para pais, educadores e profissionais que desejam combater a adultização infantil.
+
+**Acesso:** Disponível como uma das seções principais da navegação.
+
+---
+
+### 7. Cabeçalho (Header) com Navegação
+**Descrição:** Componente presente em todas as páginas, contendo o logotipo do SafeGrow e o menu de navegação entre as seções.
+
+**Acesso:** Exibido automaticamente em todas as páginas.
+
+---
+
+### 8. Rodapé (Footer) com Canais de Apoio
+**Descrição:** Componente presente em todas as páginas, exibindo informações institucionais e links para canais de denúncia como Disque 100 e CVV.
+
+**Acesso:** Exibido automaticamente em todas as páginas (`footer.html`).
+
+---
+
+## Estruturas de Dados
+
+### Usuários
+```json
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Marcos Oliveira",
+      "email": "marcos@email.com",
+      "senha": "senha123",
+      "dataCadastro": "2026-06-28"
+    }
+  ]
+}
+```
+
+### Notícias
+```json
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Como identificar sinais de adultização infantil",
+      "descricao": "Especialistas apontam comportamentos que indicam...",
+      "categoria": "Educação",
+      "imagem": "assets/noticia1.jpg",
+      "data": "2026-06-01"
+    }
+  ]
+}
+```
+
+### Sessão do Usuário
+```json
+{
+  "usuarioLogado": {
+    "email": "marcos@email.com",
+    "nome": "Marcos Oliveira"
+  }
+}
+```
+
+---
+
+## Módulos e APIs
+
+### Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|---|---|
+| HTML5 | Estruturação das páginas |
+| CSS3 | Estilização e responsividade |
+| JavaScript (Vanilla) | Lógica, manipulação do DOM e integração com APIs |
+| localStorage / sessionStorage | Armazenamento local de dados de usuários e sessão |
+
+### APIs Utilizadas
+
+| API | Finalidade |
+|---|---|
+| Google Gemini API | Processamento de linguagem natural para o chat com IA. Recebe o relato do usuário e retorna análise sobre adultização infantil com orientações personalizadas |
