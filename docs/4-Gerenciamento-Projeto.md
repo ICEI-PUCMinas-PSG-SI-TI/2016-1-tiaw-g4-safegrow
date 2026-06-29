@@ -1,46 +1,54 @@
 # Gerenciamento de Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
-Status atual e próximos passos: Fizemos diversas discussões para cada atividade realizada que foram respectivamente: Matriz de Alinhamento, Mapa de Stakeholders, Persona, Mapa da Proposta de Valor, Matriz CSD.
-Próximos passos se encontram na melhoria da organização nos trabalhos e evolução contínua na realização dos próximos, para o objetivo final que se enquadra na realização de um aplicativo completo com fins de resolução do tema do grupo: Adultização de crianças, tema este que possui enorme importância na contemporaneidade e exige rápida atuação no enfrentamento. 
-
-
 ## Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
-Tiago: responsável pelo GitHub e também por realizar o design, organização e estilização dos trabalhos.
-Daniel: responsável pelos trabalhos escritos e realização de propostas de solução. 
-Pedro: responsável pelos trabalhos escritos e realização de propostas de solução. 
-Rodrigo: responsável pelos Wireframes e protótipos do aplicativo/site.
-Nicole: responsável pelo Wireframe e desenhos necessários para as atividades. 
-OBS: Todos os participantes do grupo são sujeitos a alteração nas tarefas próprias devido a necessidade de auxílio em determinadas tarefas uns dos outros. A cooperação é um meio importante de realização de cada atividade pelo grupo. 
+O grupo adotou o framework Scrum como base para organização do trabalho, com divisão em sprints e papéis definidos por entregas.
 
+- **Tiago Sousa de Borba** — responsável pelo GitHub, design, organização e estilização geral; desenvolveu o chat com IA e o footer
+- **Daniel Mafia Mendes** — responsável pelos textos e propostas; desenvolveu os cards de notícias, filtro de pesquisa e adição de notícias
+- **Nicole Samara de Almeida** — responsável pelos textos e propostas; desenvolveu o formulário de cadastro e a página de soluções
+- **Pedro Henrique da Costa Cunha** — desenvolveu a tela de login, cadastro e manipulação de usuários
+- **Rodrigo Cesar Santos Mantovani** — desenvolveu o cabeçalho (header) e a página de recursos
 
+> OBS: Todos os participantes colaboraram entre si quando necessário, sendo a cooperação parte essencial do processo.
 
 ### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+
+| Papel | Membro |
+|---|---|
+| Scrum Master | Tiago |
+| Desenvolvimento (footer) | Tiago |
+| Desenvolvimento (header) | Rodrigo |
+| Wireframes e protótipos | Rodrigo, Nicole |
+| Documentação | Daniel, Nicole |
 
 ### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
 
-## Quadro de tarefas
+| Papel | Membro |
+|---|---|
+| Scrum Master | Tiago |
+| Chat com IA (Gemini API) | Tiago |
+| Cards de notícias e filtro | Daniel |
+| Formulário de cadastro e página de soluções | Nicole |
+| Login e gerenciamento de usuários | Pedro |
+| Header e página de recursos | Rodrigo |
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
+## Quadro de Tarefas
 
-Atualizado em: 09/01/2005
+Atualizado em: 28/06/2026
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 01/01/2005     | 07/01/2005 | ✔️    | 05/01/2005      |
-| AlunaZ        | CSS Unificado    | 03/01/2005     | 10/01/2005 | 📝    |                 |
-| AlunoY        | Página de login  | 01/01/2005     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Script de login  |                | 12/01/2005 | ❌    |       |
+| Responsável | Tarefa | Status | Terminado em |
+|---|---|---|---|
+| Tiago | Footer (rodapé informativo) | ✔️ | Sprint 1 |
+| Rodrigo | Header (cabeçalho e navegação) | ✔️ | Sprint 1 |
+| Tiago | Chat com IA (integração Gemini API) | ✔️ | Sprint 2 |
+| Daniel | Cards de notícias | ✔️ | Sprint 2 |
+| Daniel | Filtro de pesquisa e adição de notícias | ✔️ | Sprint 2 |
+| Nicole | Formulário de cadastro | ✔️ | Sprint 2 |
+| Nicole | Página de soluções e recursos | ✔️ | Sprint 2 |
+| Pedro | Tela de login | ✔️ | Sprint 2 |
+| Pedro | Cadastro e manipulação de usuários | ✔️ | Sprint 2 |
+| Rodrigo | Página de recursos | ✔️ | Sprint 2 |
 
 Legenda:
 - ✔️: terminado
@@ -50,20 +58,13 @@ Legenda:
 
 ## Ferramentas
 
-> Liste quais ferramentas foram empregadas no desenvolvimento do  projeto, justificando a escolha de cada uma delas. Use o formato abaixo como exemplo.
-
 As ferramentas empregadas no projeto são:
 
-- Ferramentas empregadas: 
-- Visual Studio Code;
-- GitHub classroom;
-- Canva;
-- Miro;
-- Word;
-
-
-## Links Úteis
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-
+| Ferramenta | Finalidade |
+|---|---|
+| Visual Studio Code | Editor de código principal |
+| GitHub Classroom | Controle de versão e colaboração entre os membros |
+| Canva | Criação de materiais visuais e apresentações |
+| Miro | Elaboração de diagramas (Matriz CSD, Stakeholders, Personas) |
+| MarvelApp | Criação do protótipo interativo e wireframes |
+| Google Gemini API | Integração de inteligência artificial no chat da plataforma |
