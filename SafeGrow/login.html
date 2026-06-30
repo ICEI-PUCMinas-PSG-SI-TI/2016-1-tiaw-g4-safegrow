@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeGrow — Login do Administrador</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="safegrow.css">
+</head>
+<body>
+
+  <div id="sg-header"></div>
+
+  <div class="container">
+    <div class="login-wrap">
+      <div class="sg-card">
+        <h2 class="text-center fw-bold mb-2" style="color: #5b7fe0; font-size: 1.5rem;">Entrar no SafeGrow</h2>
+        <p class="text-center text-muted small mb-4">Acesse sua conta para ver recursos e orientações</p>
+
+        <form id="formLogin">
+          <div class="mb-3">
+            <label class="sg-label" for="loginEmail">E-mail</label>
+            <input type="email" id="loginEmail" class="sg-input" placeholder="seu@email.com" required>
+          </div>
+          <div class="mb-4" id="campoSenha">
+            <label class="sg-label" for="loginSenha">Senha (necessária apenas para administradores)</label>
+            <input type="password" id="loginSenha" class="sg-input" placeholder="••••••••">
+          </div>
+          <button type="submit" class="sg-btn w-100 mb-3">
+            Entrar <i class="bi-box-arrow-in-right ms-1"></i>
+          </button>
+        </form>
+
+        <p id="loginErro" style="color: #e05b5b; font-size: 0.85rem;" class="text-center m-0"></p>
+
+        <div class="text-center mt-3 pt-3" style="border-top: 1px solid #eee;">
+          <span class="text-muted small">Não tem uma conta? </span>
+          <a href="cadastro.html" class="small fw-bold text-decoration-none">Cadastre-se aqui</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sg-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="componentes.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

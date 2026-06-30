@@ -1,0 +1,98 @@
+{
+  "menu": [
+    { "id": "1", "nome": "Contatos", "link": "contatos.html" },
+    { "id": "2", "nome": "Recursos", "link": "recursos.html" },
+    { "id": "3", "nome": "Soluções", "link": "solucoes.html" },
+    { "id": "4", "nome": "Ajuda", "link": "#" }
+  ],
+  "pesquisas": [
+    { "id": "1", "termo": "O que é adultização?", "categoria": "Conceito", "link": "chat.html" },
+    { "id": "2", "termo": "Riscos das redes sociais", "categoria": "Prevenção", "link": "chat.html" },
+    { "id": "3", "termo": "Como identificar", "categoria": "Sintomas", "link": "chat.html" },
+    { "id": "4", "termo": "Onde buscar ajuda", "categoria": "Recursos", "link": "recursos.html" }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Pedro Henrique",
+      "email": "pedro_henrique19@gmail.com.br",
+      "telefone": "(31) 99751-0797",
+      "idade": 18,
+      "cidade": "Belo Horizonte"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Campolina",
+      "email": "mariass_campoo22@gmail.com.br",
+      "telefone": "(11) 3462-5594",
+      "idade": 35,
+      "cidade": "São Paulo"
+    },
+    {
+      "id": 3,
+      "nome": "João Souza",
+      "email": "joaosouzzz02@gmail.com.br",
+      "telefone": "(31) 7661-1270",
+      "idade": 30,
+      "cidade": "Ouro Preto"
+    }
+  ],
+  "cardprincipal": [
+    {
+      "titulo": "Recursos de Apoio e Orientação",
+      "descricao": "Encontre informações confiáveis para apoiar famílias, educadores e a comunidade na proteção de crianças e adolescentes. Esta seção reúne materiais educativos, orientações sobre segurança digital, canais de denúncia, apoio psicológico e conteúdos sobre direitos infantis.",
+      "objetivo": "Nosso objetivo é facilitar o acesso a recursos que ajudem a identificar riscos, prevenir situações de exposição inadequada e incentivar atitudes responsáveis no combate à adultização infantil.",
+      "imagem": "public/img/recursos.png"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "titulo": "Como denunciar conteúdos inadequados",
+      "categoria": "Denúncia",
+      "descricao": "Acesse um canal seguro para denunciar conteúdos, perfis ou situações que exponham crianças e adolescentes de forma inadequada na internet.",
+      "link": "https://new.safernet.org.br/denuncie",
+      "imagem": "public/img/denuncia.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Orientação para pais e responsáveis",
+      "categoria": "Família",
+      "descricao": "Conteúdo voltado para famílias que desejam proteger crianças no ambiente digital. Dicas sobre diálogo, limites, privacidade e acompanhamento das redes sociais.",
+      "link": "https://new.safernet.org.br/content/acesso-%C3%A0-internet-por-crian%C3%A7as-e-adolescentes-dicas-de-como-orientar",
+      "imagem": "public/img/pais.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Segurança digital infantil",
+      "categoria": "Internet",
+      "descricao": "Aprenda cuidados importantes para reduzir riscos na internet, como configurar privacidade em redes sociais e proteger dados pessoais de crianças.",
+      "link": "https://new.safernet.org.br/content/navegar-com-seguran%C3%A7a-%E2%80%93-childhood",
+      "imagem": "public/img/seguranca.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Materiais para escolas",
+      "categoria": "Educação",
+      "descricao": "Materiais e orientações para professores e instituições de ensino trabalharem a conscientização sobre adultização infantil e segurança online.",
+      "link": "https://www.gov.br/mdh/pt-br/assuntos/noticias/2023/maio/cartilha-do-governo-federal-traz-orientacoes-para-lidar-e-conversar-com-criancas-e-jovens-sobre-conteudos-de-violencia-online",
+      "imagem": "public/img/escola.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Apoio psicológico",
+      "categoria": "Saúde",
+      "descricao": "Informações sobre o acolhimento emocional quando uma criança passa por exposição ou situação de risco. Como buscar ajuda profissional.",
+      "link": "https://www.childhood.org.br/centro-de-atendimento-integrado-e-escuta-especializada/",
+      "imagem": "public/img/apoio.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Legislação",
+      "categoria": "Leis",
+      "descricao": "Conheça os principais direitos que protegem crianças e adolescentes, incluindo o direito à imagem, à privacidade e à proteção contra exploração.",
+      "link": "https://www.gov.br/mdh/pt-br/navegue-por-temas/crianca-e-adolescente/publicacoes/o-estatuto-da-crianca-e-do-adolescente",
+      "imagem": "public/img/leis.png"
+    }
+  ]
+}
